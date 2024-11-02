@@ -40,6 +40,7 @@ function showMiddlePane(section) {
                 <button onclick="showThirdPane('hostels')">Hostels</button>
                 <button onclick="showThirdPane('sports_facilities')">Sports Facilities</button>
                 <button onclick="showThirdPane('common_areas')">Common Areas</button>
+		<button onclick="showThirdPane('green_initiatives')">Green Initatives</button>
             `;
             break;
         case 'photos':
@@ -89,6 +90,14 @@ function showMiddlePane(section) {
                 <button onclick="showThirdPane('sports')">Sports</button>
                 <button onclick="showThirdPane('fests')">Events and Fests</button>
 		<button onclick="showThirdPane('clubs')">Student Associations and Clubs</button>
+            `;
+            break;
+	case 'collaborations':
+            content = `
+                <h2>Collaborations and Community Engagement</h2>
+                <button onclick="showThirdPane('national_local')">National and Local</button>
+                <button onclick="showThirdPane('international')">International</button>
+                <button onclick="showThirdPane('community_connects')">Community Connects</button>
             `;
             break;
     }
@@ -731,13 +740,60 @@ function showThirdPane(subsection) {
             content = `
                 <h2>Student Associations and Clubs</h2>
                 <ul>
-                    <li><a href="https://example.com/consolidated-data-2023" target="_blank">SWARAJ- Social Work Student Association</a></li>
-		    <li><a href="https://example.com/consolidated-data-2023" target="_blank">FORMS- Management Student Association</a></li>
+                    <li><a href="https://example.com/consolidated-data-2023" target="_blank">Swaraj- Social Work Student Association</a></li>
+		    <li><a href="https://example.com/consolidated-data-2023" target="_blank">Forms- Management Student Association</a></li>
                     <li><a href="https://example.com/highest-ctc" target="_blank">CSTAR- Computer Science Student Association</a></li>
                     <li><a href="https://example.com/lowest-ctc" target="_blank">ACSSR- Commerce Student Association </a></li>
 		    <li><a href="https://example.com/lowest-ctc" target="_blank">PSYSTAR- Psychology Student Association</a></li>
-		    <li><a href="https://example.com/lowest-ctc" target="_blank">STATISTICA- Statistics Student Association</a></li>
+		    <li><a href="https://example.com/lowest-ctc" target="_blank">Statistica- Statistics Student Association</a></li>
 		    <li><a href="https://example.com/lowest-ctc" target="_blank">Student Clubs</a></li>
+                </ul>
+            `;
+            break;
+	case 'green_initiatives':
+            content = `
+                <h2>Green Initiatives</h2>
+                <ul>
+                    <li><a href="https://example.com/solar-energy" target="_blank">Solar Energy</a></li>
+                    <li><a href="https://example.com/ev-charging-station" target="_blank">EV Charging Station</a></li>
+                    <li><a href="https://example.com/bio-gas" target="_blank">Bio Gas</a></li>
+                    <li><a href="https://example.com/rain-water-harvesting" target="_blank">Rain Water Harvesting</a></li>
+                    <li><a href="https://example.com/sewage-treatment-plan" target="_blank">Sewage Treatment Plan</a></li>
+                    <li><a href="https://example.com/waste-management" target="_blank">Waste Management</a></li>
+                    <li><a href="https://example.com/glass-crusher" target="_blank">Glass Crusher</a></li>
+                </ul>
+            `;
+            break;
+	case 'national_local':
+            content = `
+                <h2>National and Local</h2>
+                <ul>
+                    <li><a href="https://example.com/national-collaborations" target="_blank">National Collaborations</a></li>
+                    <li><a href="https://example.com/state-collaborations" target="_blank">State Collaborations</a></li>
+                </ul>
+            `;
+            break;
+
+        case 'international':
+            content = `
+                <h2>International</h2>
+                <ul>
+                    <li><a href="https://example.com/partner-universities" target="_blank">List of Partner Universities</a></li>
+                    <li><a href="https://example.com/25th-celebration" target="_blank">25th Year Celebration</a></li>
+                    <li><a href="https://example.com/conference-sdg" target="_blank">International Conference on SDG</a></li>
+                    <li><a href="https://example.com/international-faculty" target="_blank">International Faculty</a></li>
+                    <li><a href="https://example.com/international-students" target="_blank">International Students</a></li>
+                </ul>
+            `;
+            break;
+
+        case 'community_connects':
+            content = `
+                <h2>Community Connects</h2>
+                <ul>
+                    <li><a href="https://example.com/rajagiri-outreach" target="_blank">Rajagiri Outreach</a></li>
+                    <li><a href="https://example.com/skill-development-centre" target="_blank">Rajagiri Skill Development Centre</a></li>
+                    <li><a href="https://example.com/uba" target="_blank">UBA</a></li>
                 </ul>
             `;
             break;
