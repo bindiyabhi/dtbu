@@ -735,7 +735,7 @@ function showThirdPane(subsection) {
 		    <li><a href="https://example.com/consolidated-data-2023" target="_blank">Forms- Management Student Association</a></li>
                     <li><a href="https://example.com/highest-ctc" target="_blank">CSTAR- Computer Science Student Association</a></li>
                     <li><a href="https://example.com/lowest-ctc" target="_blank">ACSSR- Commerce Student Association </a></li>
-		    <li><a href="https://example.com/lowest-ctc" target="_blank">PSYSTAR- Psychology Student Association</a></li>
+		    <li><a href="https://example.com/lowest-ctc" target="_blank">Statistica- Psychology Student Association</a></li>
 		    <li><a href="https://example.com/lowest-ctc" target="_blank">Inferentia- Statistics Student Association</a></li>
 		    <li><a href="https://example.com/lowest-ctc" target="_blank">Student Clubs</a></li>
                 </ul>
