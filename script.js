@@ -731,12 +731,12 @@ function showThirdPane(subsection) {
             content = `
                 <h2>Student Associations and Clubs</h2>
                 <ul>
-                    <li><a href="https://example.com/consolidated-data-2023" target="_blank">Swaraj- Social Work Student Association</a></li>
-		    <li><a href="https://example.com/consolidated-data-2023" target="_blank">Forms- Management Student Association</a></li>
+                    <li><a href="https://example.com/consolidated-data-2023" target="_blank">SWARAJ- Social Work Student Association</a></li>
+		    <li><a href="https://example.com/consolidated-data-2023" target="_blank">FORMS- Management Student Association</a></li>
                     <li><a href="https://example.com/highest-ctc" target="_blank">CSTAR- Computer Science Student Association</a></li>
                     <li><a href="https://example.com/lowest-ctc" target="_blank">ACSSR- Commerce Student Association </a></li>
-		    <li><a href="https://example.com/lowest-ctc" target="_blank">Statistica- Psychology Student Association</a></li>
-		    <li><a href="https://example.com/lowest-ctc" target="_blank">Inferentia- Statistics Student Association</a></li>
+		    <li><a href="https://example.com/lowest-ctc" target="_blank">PSYSTAR- Psychology Student Association</a></li>
+		    <li><a href="https://example.com/lowest-ctc" target="_blank">STATISTICA- Statistics Student Association</a></li>
 		    <li><a href="https://example.com/lowest-ctc" target="_blank">Student Clubs</a></li>
                 </ul>
             `;
